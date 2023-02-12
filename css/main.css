@@ -1,0 +1,60 @@
+                                /* ====> Resets <====  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 62.5%;
+}
+
+a{text-decoration: none;} /* Remove the decoration of our links */
+
+ul{list-style: none;} /*Remove the display of our lists */
+
+:root{
+
+    /* colors */
+
+    --bg-clr:hsl(0, 0%, 96%);
+
+    --primary-clr-400:hsl(219, 18%, 19%);
+    --primary-clr-500:hsl(218, 13%, 24%);
+
+    /* Fonts */
+
+    /* paddings. For diferent screen sizes */
+
+    /* Layout, radius, buttons sizes etc...  */
+
+    /* Animations and transitions */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: ;
+    font-family: ;
+    overflow: hidden auto;
+}
+
+                        /* ====> Base <====  */
+
+.title{color: var(--primary-clr-400);}                        
+
+.container{
+
+}
+
+                      /* ====> Utility Classes <====  */
+
+.bg-clr{background: var(--bg-clr);}
+
+
+.primary-clr-400{color: var(--primary-clr-400);}
+.primary-clr-500{color: var(--primary-clr-500);}
+
+
+
