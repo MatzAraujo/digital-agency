@@ -10,24 +10,35 @@
 
 a{text-decoration: none;} /* Remove the decoration of our links */
 
-ul{list-style: none;} /*Remove the display of our lists */
+ul{list-style: none;} /*Remove the style of our lists */
 
 :root{
 
-    /* colors */
+             /* colors */
 
     --bg-clr:hsl(0, 0%, 96%);
 
     --primary-clr-400:hsl(219, 18%, 19%);
     --primary-clr-500:hsl(218, 13%, 24%);
+    --primary-clr-600:hsl(219, 10%, 29%);
 
     /* Fonts */
 
     /* paddings. For diferent screen sizes */
 
+    --padding-400: 3.4rem 6rem;
+    --padding-500:5rem 8rem;
+    --padding-600:6.8rem 10.5rem;
+    --padding-700:10rem 13rem;
+
     /* Layout, radius, buttons sizes etc...  */
 
     /* Animations and transitions */
+
+    --200:.2s;
+    --300:.3s;
+    --400:.4s;
+    --500:.5s;
 }
 
 html{
@@ -35,18 +46,28 @@ html{
 }
 
 body{
-    color: ;
     font-family: ;
     overflow: hidden auto;
 }
 
+.mobile{display: none;}
+
                         /* ====> Base <====  */
 
-.title{color: var(--primary-clr-400);}                        
+.wrapper{
+    height: 3387px;
+    max-width: 1440px;
+}
 
 .container{
-
+    padding: var(--padding-500);
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 
                       /* ====> Utility Classes <====  */
 
@@ -55,6 +76,36 @@ body{
 
 .primary-clr-400{color: var(--primary-clr-400);}
 .primary-clr-500{color: var(--primary-clr-500);}
+.primary-clr-600{color: var(--primary-clr-600);}
+
+.logo{
+    text-transform: uppercase;
+}
+
+.links{
+    font-size: ;
+    color:var(--primary-clr-600);
+    transition: var(--200) color;
+}
+.links:hover{
+    color:red;
+}
+
+.title{color: var(--primary-clr-400);}                        
 
 
+.title{color: var(--primary-clr-400);}                        
+
+
+                     /* ====> Layout <====  */
+
+.menu{
+    position: fixed;
+    width: 82%;
+}
+
+.menu > .menu-items li{
+    display: inline-block;
+    margin-left:1.6rem;
+}
 

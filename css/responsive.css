@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+
+    /* display: none */
+
+        /* header items */
+    .menu-items{display: none;}
+    .icon-close{display: none;}
+  
+
+    .mobile{display: block;}
+
+    
+
+}
