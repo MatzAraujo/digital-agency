@@ -1,10 +1,13 @@
                                 /* ====> Resets <====  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font: inherit;
+    font-family:var(--ff-primary); 
     font-size: 62.5%;
 }
 
@@ -23,6 +26,16 @@ ul{list-style: none;} /*Remove the style of our lists */
     --primary-clr-600:hsl(219, 10%, 29%);
 
     /* Fonts */
+
+    --ff-primary:'Poppins', sans-serif;;
+
+    --fw-regular:400;
+    --fw-semi-bold:500;
+    --fw-bold:700;
+
+    --fs-main-heading:6.4rem;
+    --fs-body-text:1.8rem;
+    --fs-span-text:1.6rem;
 
     /* paddings. For diferent screen sizes */
 
@@ -46,7 +59,6 @@ html{
 }
 
 body{
-    font-family: ;
     overflow: hidden auto;
 }
 
@@ -68,22 +80,29 @@ body{
     justify-content: space-between;
 }
 
-
                       /* ====> Utility Classes <====  */
 
 .bg-clr{background: var(--bg-clr);}
-
 
 .primary-clr-400{color: var(--primary-clr-400);}
 .primary-clr-500{color: var(--primary-clr-500);}
 .primary-clr-600{color: var(--primary-clr-600);}
 
+.fw-regular{font-weight: var(--fw-regular);}
+.fw-semi-bold{font-weight: var(--fw-semi-bold);}
+.fw-bold{font-weight: var(--fw-bold);}
+
+.fs-span-text{font-size: var(--fs-span-text);}
+.fs-body-text{font-size: var(--fs-body-text);}
+.fs-main-heading{font-size: var(--fs-main-heading);}
+
 .logo{
     text-transform: uppercase;
+    color: hsl(219, 12%, 28%)
 }
 
 .links{
-    font-size: ;
+    font-size: var(--fs-span-text);
     color:var(--primary-clr-600);
     transition: var(--200) color;
 }
@@ -106,6 +125,18 @@ body{
 
 .menu > .menu-items li{
     display: inline-block;
-    margin-left:1.6rem;
+    margin-left:4.6rem;
 }
 
+/* .fancy-border{
+    background: linear-gradient(to right, hsl(216, 41%, 93%), hsl(218, 40%, 82%));
+    border-radius: 100% 0% 100% 0% / 0% 19% 81% 100% ;
+    bottom: 5rem;
+    height: 400px;
+    opacity: 1;
+    filter: blur(4px);
+    position: relative;
+    right: 25rem;
+    width:400px;
+    z-index: -1;
+} */
