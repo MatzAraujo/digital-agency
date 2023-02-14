@@ -9,5 +9,48 @@
 
     .mobile{display: block;}
 
+    .toggle{
+        font-size: 1.6rem;
+        position: absolute;
+        right: 1rem;
+    }
 
+     /* When Menu is open  */
+
+     
+    .open .logo{
+        display: none;
+    }
+
+    .open .icon-menu{
+        display: none;
+    }
+
+    .open .icon-close{
+        display: block;
+    }
+
+    .menu.open{
+       background: white;
+       height: 20rem;
+       width: 40rem;
+       position: relative;
+       right:8rem;
+       transition: .3s;
+    }
+
+    .open .menu-items{
+        display: grid;
+        place-items: center;
+        justify-items: center;
+        width:95%;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 420px) {
+    .menu.open{
+        right: 6rem;
+    }
 }
