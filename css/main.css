@@ -112,9 +112,9 @@ body{
 
 .title{color: var(--primary-clr-400);}                        
 
-
-.title{color: var(--primary-clr-400);}                        
-
+p{
+    font-size: var(--fs-body-text);
+}
 
                      /* ====> Layout <====  */
 
@@ -140,3 +140,7 @@ body{
     width:400px;
     z-index: -1;
 } */
+
+main{
+    margin-top: 10rem;
+}
