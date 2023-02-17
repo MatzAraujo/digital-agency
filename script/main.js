@@ -7,3 +7,6 @@ for(const element of toggle){
         menuOpen.classList.toggle("open")
     })
 }
+
+const links = document.querySelectorAll("nav ul li a")
+

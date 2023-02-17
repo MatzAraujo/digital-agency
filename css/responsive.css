@@ -10,9 +10,14 @@
     .mobile{display: block;}
 
     .toggle{
+        cursor: pointer;
         font-size: 1.6rem;
         position: absolute;
         right: 1rem;
+    }
+    
+    .icon-menu{
+        bottom: .5rem;
     }
 
      /* When Menu is open  */
@@ -54,3 +59,13 @@
         right: 6rem;
     }
 }
+
+/* Gambiarra temporária */
+
+@media screen and (min-width: 500px) {
+    .menu.open{
+        right: 6.4rem;
+        width: 45.4rem;
+    }
+}
+
