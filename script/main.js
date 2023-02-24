@@ -10,3 +10,13 @@ for(const element of toggle){
 
 const links = document.querySelectorAll("nav ul li a")
 
+const menu = document.querySelector(".menu")
+const menuHeight = menu.offsetHeight 
+
+// window.addEventListener("scroll", () => {
+//     if( window.scrollY >= menuHeight){
+//         menu.classList.add("scroll")
+//     }else{
+//         menu.classList.remove("scroll")
+//     }
+// })
