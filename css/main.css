@@ -118,18 +118,32 @@ body{
 .fs-body-text{font-size: var(--fs-body-text);}
 .fs-main-heading{font-size: var(--fs-main-heading);}
 
-.logo{
-    text-transform: uppercase;
-    color: hsl(219, 12%, 28%)
-}
+.logo{text-transform: uppercase;}
 
 .links{
+    position: relative;
     font-size: var(--fs-span-text);
     color:var(--primary-clr-600);
-    transition: var(--200) color;
+    transition:  var(--300) color; 
 }
+
 .links:hover{
-    color:red;
+    color: var(--primary-clr-400);
+}
+
+.links::after{
+    background: var(--primary-clr-400);
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 2.4rem;
+    left: 0;
+    width: 0%;
+    transition: var(--300) width;
+}
+
+.links:hover::after{
+    width: 100%;
 }
 
 .title{color: var(--primary-clr-400);}                        
