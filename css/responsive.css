@@ -1,17 +1,28 @@
 @media screen and (max-width: 576px) {
 
-    /* display: none */
+      
+
+       /* base */
+
+       :root{
+        --fs-main-heading:3rem;
+       }
+
+       .texts{text-align: center;}
+
+    /* display: none */ 
+    
+    /* global items */
+
+    .image{display: none;}
 
         /* header items */
     .menu-items{display: none;}
     .icon-close{display: none;}
-
-        /* home items */
-
-    .image{display: none!important;}
   
 
-    .mobile{display: block;}
+        /* this is the toggle menu */
+         .mobile{display: block;}
 
     .toggle{
         cursor: pointer;
@@ -56,6 +67,7 @@
         margin-top: 2rem;
     }
 
+ 
 }
 
 @media screen and (min-width: 420px) {

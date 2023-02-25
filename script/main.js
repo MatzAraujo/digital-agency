@@ -8,8 +8,6 @@ for(const element of toggle){
     })
 }
 
-const links = document.querySelectorAll("nav ul li a")
-
 const menu = document.querySelector(".menu")
 const menuHeight = menu.offsetHeight 
 
