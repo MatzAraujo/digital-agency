@@ -5,6 +5,10 @@
         /* header items */
     .menu-items{display: none;}
     .icon-close{display: none;}
+
+        /* home items */
+
+    .image{display: none!important;}
   
 
     .mobile{display: block;}
