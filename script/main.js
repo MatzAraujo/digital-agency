@@ -8,13 +8,13 @@ for(const element of toggle){
     })
 }
 
-const menu = document.querySelector(".menu")
-const menuHeight = menu.offsetHeight 
+const header = document.querySelector(".header")
+const headerHeight = header.offsetHeight 
 
-// window.addEventListener("scroll", () => {
-//     if( window.scrollY >= menuHeight){
-//         menu.classList.add("scroll")
-//     }else{
-//         menu.classList.remove("scroll")
-//     }
-// })
+window.addEventListener("scroll", () => {
+    if( window.scrollY >= headerHeight){
+        header.classList.add("scroll")
+    }else{
+        header.classList.remove("scroll")
+    }
+})
