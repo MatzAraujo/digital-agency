@@ -19,3 +19,10 @@ window.addEventListener("scroll", () => {
     }
 })
 
+const links = document.querySelectorAll("nav ul li a")
+
+for(const link of links){
+    link.addEventListener("click", () => {
+        menuOpen.classList.remove("open")
+    })
+}

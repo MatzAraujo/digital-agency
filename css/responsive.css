@@ -1,11 +1,12 @@
 @media screen and (max-width: 576px) {
 
        /* base */
-
+       
        :root{
-        --fs-main-heading:3rem;
-       }
-
+           --fs-main-heading:3rem;
+        }
+        
+      .container{padding: var(--padding-400);}
        .texts{text-align: center;}
 
     /* display: none */ 
@@ -24,9 +25,10 @@
 
     .toggle{
         cursor: pointer;
-        font-size: 1.6rem;
+        font-size: 2rem;
         position: absolute;
-        right: 1rem;
+        top: 3rem;
+        right: 2rem;
     }
     
     .icon-menu{
@@ -50,10 +52,11 @@
 
     .menu.open{
        background: white;
-       height: 20rem;
-       width: 40rem;
-       position: relative;
-       right:8rem;
+       height: 30vh;
+       width: 100vw;
+       position: absolute;
+       top: 0;
+       right: 0;
        transition: .3s;
     }
 
@@ -64,22 +67,6 @@
         width:95%;
         margin-top: 2rem;
     }
-
  
-}
-
-@media screen and (min-width: 420px) {
-    .menu.open{
-        right: 6rem;
-    }
-}
-
-/* Gambiarra temporária */
-
-@media screen and (min-width: 500px) {
-    .menu.open{
-        right: 6.4rem;
-        width: 45.4rem;
-    }
 }
 
