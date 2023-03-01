@@ -7,7 +7,11 @@
         }
         
       .container{padding: var(--padding-400);}
-       .texts{text-align: center;}
+      .texts{text-align: center;}
+      
+      section:not(#home){
+        padding-top: 2rem;
+      }
 
     /* display: none */ 
     

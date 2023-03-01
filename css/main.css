@@ -99,7 +99,13 @@ body{
 .image{
     height: 45rem;
     width: 45rem;
-    background: url(/assets/images/business-people-discussing-business-idea.png) no-repeat ;
+}
+
+#home .image{background:  url(/assets/images/business-people-discussing-business-idea.png) no-repeat;}
+#about .image{background: url(/assets/images/designer-team-working-on-creative-design.png) no-repeat;}
+
+section:not(#home){
+    padding-top: 12.23rem;
 }
 
                       /* ====> Utility Classes <====  */
