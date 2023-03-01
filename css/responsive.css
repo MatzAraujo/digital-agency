@@ -67,6 +67,16 @@
         width:95%;
         margin-top: 2rem;
     }
+
+    #companies{
+        padding-inline: 0rem;
+    }
  
+
+    .brands {
+        display: grid;
+        height: 50rem;
+        justify-content: center;
+    }
 }
 

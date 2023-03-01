@@ -23,6 +23,7 @@ ul{list-style: none;} /*Remove the style of our lists */
     --bg-btn:hsl(214, 46%, 70%);
 
     --primary-clr-100:hsl(0, 0%, 100%);
+    --primary-clr-300: hsl(224, 10%, 79%);
     --primary-clr-400:hsl(219, 18%, 19%);
     --primary-clr-500:hsl(218, 13%, 24%);
     --primary-clr-600:hsl(219, 10%, 29%);
@@ -106,6 +107,7 @@ body{
 .bg-clr{background: var(--bg-clr);}
 
 .primary-clr-100{color: var(--primary-clr-100);}
+.primary-clr-300{color: var(--primary-clr-300);}
 .primary-clr-400{color: var(--primary-clr-400);}
 .primary-clr-500{color: var(--primary-clr-500);}
 .primary-clr-600{color: var(--primary-clr-600);}
@@ -218,4 +220,24 @@ p{
 
 main{
     margin-top: 10rem;
+}
+
+#companies {
+    text-align: center;
+    padding-inline: var(--padding-600);
+    margin-top: 10rem;
+}
+
+.brands{
+    align-items: center;
+    background: hsl(0, 0%, 93%);
+    border-radius: var(--radius);
+    height: 10rem;
+    margin-top: 1rem;
+    width: 100%;
+} 
+
+.brands img{
+    height: 8rem;
+    padding: var(--btn-padding);
 }
