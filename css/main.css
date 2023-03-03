@@ -103,6 +103,7 @@ body{
 
 #home .image{background:  url(/assets/images/business-people-discussing-business-idea.png) no-repeat;}
 #about .image{background: url(/assets/images/designer-team-working-on-creative-design.png) no-repeat;}
+#about .image:nth-last-child(1){background: url(/assets/images/businessman-analyzing-data.png) no-repeat;}
 
 section:not(#home){
     padding-top: 12.23rem;
@@ -154,7 +155,10 @@ section:not(#home){
     width: 100%;
 }
 
-.title{color: var(--primary-clr-400);}                        
+.title{
+    color: var(--primary-clr-400);
+    font-weight: var(--fw-bold);
+}                        
 
 p{
     font-size: var(--fs-body-text);
@@ -246,4 +250,8 @@ main{
 .brands img{
     height: 8rem;
     padding: var(--btn-padding);
+}
+
+#about .even-columns:nth-child(2){
+    margin-top: 12rem;
 }
