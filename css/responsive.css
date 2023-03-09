@@ -82,5 +82,24 @@
         height: 50rem;
         justify-content: center;
     }
+
+    /* 
+     testimonials is padding: 0; 
+    because we have to put it so our cards can have an inline margin to the center
+    */
+
+    #testimonials{
+        padding: 0rem;
+    }
+
+    .cards{
+        display: grid;
+    }
+
+    .card{
+        height: 38.4rem;
+        width: 27rem;
+    }
+
 }
 

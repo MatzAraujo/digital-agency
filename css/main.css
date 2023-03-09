@@ -261,6 +261,8 @@ main{
     padding-inline: var(--padding-600);
 }
 
+#testimonials h3{font-weight: var(--fw-regular);}
+
 .cards{
     display: flex;
     gap: 4rem;
@@ -286,6 +288,3 @@ main{
     margin-bottom: 2.7rem;
 }
 
-#testimonials h3{
-    font-weight: var(--fw-regular);
-}
