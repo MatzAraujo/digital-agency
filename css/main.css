@@ -91,7 +91,7 @@ body{
 }
 
 .even-columns{
-    display: grid;
+   display: grid;
    grid-auto-columns: 1fr;
    grid-auto-flow: column;
    gap:7rem;
@@ -120,7 +120,7 @@ section:not(#home){
 .primary-clr-500{color: var(--primary-clr-500);}
 .primary-clr-600{color: var(--primary-clr-600);}
 
-.fw-regular{font-weight: 400;}
+.fw-regular{font-weight: var(--fw-regular);}
 .fw-semi-bold{font-weight: 500;}
 .fw-bold{font-weight: 700;}
 
@@ -284,4 +284,8 @@ main{
 
 .card > h5{
     margin-bottom: 2.7rem;
+}
+
+#testimonials h3{
+    font-weight: var(--fw-regular);
 }
