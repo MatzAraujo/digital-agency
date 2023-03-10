@@ -1,4 +1,3 @@
-
 const menuOpen = document.querySelector(".menu")
 const toggle = document.querySelectorAll(".toggle")
 
@@ -26,3 +25,6 @@ for(const link of links){
         menuOpen.classList.remove("open")
     })
 }
+
+
+

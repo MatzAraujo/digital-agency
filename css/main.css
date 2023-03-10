@@ -199,6 +199,7 @@ p{
     height: 5rem;
     padding: 4rem 8.2rem;
     transition: background .7s;
+    z-index: 1000;
 } 
 
 .scroll{
@@ -229,13 +230,13 @@ p{
 } */
 
 main{
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 #companies {
     text-align: center;
     padding-inline: var(--padding-600);
-    margin-top: 10rem;
+    margin-bottom: 8rem;
 }
 
 .brands{
@@ -286,5 +287,10 @@ main{
 
 .card > h5{
     margin-bottom: 2.7rem;
+}
+
+
+html.sr{
+    visibility: hidden;
 }
 
