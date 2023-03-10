@@ -23,7 +23,7 @@ ScrollReveal().reveal(`
 .title, p, .btn,
 #home .image,
 #companies, .brands, .brands img,
-.cards, .card, .card img, .card h5,
+#testimonials, .card,
 #contact
 `,
 slideUp)
@@ -35,3 +35,4 @@ slideRight)
 
 //header is set false, because when we scroll down our page, he are popping off our elements   
 ScrollReveal().reveal('.header',slideUp,{reset: false})
+
