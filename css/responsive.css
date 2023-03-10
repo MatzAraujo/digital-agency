@@ -11,6 +11,7 @@
       
       section:not(#home){
         padding-top: 2rem;
+        padding-inline: 0rem;
       }
 
     /* display: none */ 
@@ -72,10 +73,10 @@
         margin-top: 2rem;
     }
 
-    #companies{
+    /* #companies{
         padding-inline: 0rem;
     }
- 
+  */
 
     .brands {
         display: grid;
@@ -99,6 +100,15 @@
     .card{
         height: 38.4rem;
         width: 27rem;
+    }
+
+    .box{   
+        padding:2rem 4.5rem;
+        height: 50.43rem; 
+    }    
+
+    .box .title{
+        margin-bottom: 1.6rem;
     }
 }
 

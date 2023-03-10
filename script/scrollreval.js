@@ -23,7 +23,8 @@ ScrollReveal().reveal(`
 .title, p, .btn,
 #home .image,
 #companies, .brands, .brands img,
-.cards, .card, .card img, .card h5
+.cards, .card, .card img, .card h5,
+#contact
 `,
 slideUp)
 

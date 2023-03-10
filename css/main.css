@@ -68,6 +68,11 @@ html{
     scroll-behavior: smooth;
 }
 
+/* ScrollReval need to be aplied on HTML,because of User Experience  */
+html.sr{
+    visibility: hidden;
+}
+
 body{
     overflow: hidden auto;
 }
@@ -105,6 +110,7 @@ body{
 #home .image{background:  url(/assets/images/business-people-discussing-business-idea.png) no-repeat;}
 #about .image{background: url(/assets/images/designer-team-working-on-creative-design.png) no-repeat;}
 #about .image:nth-last-child(1){background: url(/assets/images/businessman-analyzing-data.png) no-repeat;}
+#contact .image{background: url(/assets/images/customer-support.png) no-repeat;}
 
 section:not(#home){
     padding-top: 12.23rem;
@@ -289,8 +295,17 @@ main{
     margin-bottom: 2.7rem;
 }
 
+#contact{padding-inline: var(--padding-600);}
 
-html.sr{
-    visibility: hidden;
+.box{
+    margin-top: 7rem;
+    padding: 6rem 7.5rem;
+    height:50.43rem;
+    background: var(--bg-border);
+    border-radius: var(--radius);
 }
 
+#contact .title{
+    font-size: 3.4rem;
+    margin-top: 6rem;
+}
